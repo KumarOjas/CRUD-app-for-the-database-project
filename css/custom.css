@@ -1,0 +1,62 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:30px;
+    width: 100%;
+    margin-top:40px;
+    background:#F3F3F3;
+    min-height: 600px;
+}
+
+
+.navbar-inverse {
+
+background-color: #214761;
+border-color: #F0F0F0;
+min-height: 40px;
+}
+
+
+.btn, .form-control{
+    border-radius: 0;
+}
+
+input{
+    border-radius: 0;
+}
+    
+
+.footer {
+    background-color:#214761;
+    width:100%;
+    color:#fff;
+    padding:20px 20px 20px 20px;
+     padding-left:20px;
+}
+
+
+    .footer > a, .footer>a:hover {
+       
+        color:#fff;
+    }
+
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+               margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1050px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+       
+    }
+
+ 
+}
+
+
